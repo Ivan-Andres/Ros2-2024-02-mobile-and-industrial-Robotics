@@ -1,0 +1,17 @@
+running develop
+/home/ivan/.local/lib/python3.10/site-packages/setuptools/command/easy_install.py:156: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+running egg_info
+writing turtle_move_pkg_ga.egg-info/PKG-INFO
+writing dependency_links to turtle_move_pkg_ga.egg-info/dependency_links.txt
+writing entry points to turtle_move_pkg_ga.egg-info/entry_points.txt
+writing requirements to turtle_move_pkg_ga.egg-info/requires.txt
+writing top-level names to turtle_move_pkg_ga.egg-info/top_level.txt
+reading manifest file 'turtle_move_pkg_ga.egg-info/SOURCES.txt'
+writing manifest file 'turtle_move_pkg_ga.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/ivan/ros2_ws_2402/src/install/turtle_move_pkg_ga/lib/python3.10/site-packages/turtle-move-pkg-ga.egg-link (link to .)
+Installing turtle_move_node_ga script to /home/ivan/ros2_ws_2402/src/install/turtle_move_pkg_ga/lib/turtle_move_pkg_ga
+
+Installed /home/ivan/ros2_ws_2402/src/build/turtle_move_pkg_ga
+running symlink_data

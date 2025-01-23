@@ -1,0 +1,19 @@
+[1.633s] Invoking command in '/home/ivan/ros2_ws_2402/build/launch_pkg_ga': PYTHONPATH=/home/ivan/ros2_ws_2402/build/launch_pkg_ga/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ivan/ros2_ws_2402/install/launch_pkg_ga/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/ivan/ros2_ws_2402/build/launch_pkg_ga/build --no-deps symlink_data
+[1.985s] running develop
+[1.988s] /home/ivan/.local/lib/python3.10/site-packages/setuptools/command/easy_install.py:156: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[1.988s]   warnings.warn(
+[2.184s] /home/ivan/.local/lib/python3.10/site-packages/setuptools/command/easy_install.py:330: UserWarning: Unbuilt egg for modelrobot3r-pkg-ga [unknown version] (/home/ivan/ros2_ws_2402/build/modelrobot3r_pkg_ga)
+[2.184s]   self.local_index = Environment(self.shadow_path + sys.path)
+[2.234s] running egg_info
+[2.234s] writing launch_pkg_ga.egg-info/PKG-INFO
+[2.234s] writing dependency_links to launch_pkg_ga.egg-info/dependency_links.txt
+[2.235s] writing entry points to launch_pkg_ga.egg-info/entry_points.txt
+[2.235s] writing requirements to launch_pkg_ga.egg-info/requires.txt
+[2.235s] writing top-level names to launch_pkg_ga.egg-info/top_level.txt
+[2.236s] reading manifest file 'launch_pkg_ga.egg-info/SOURCES.txt'
+[2.237s] writing manifest file 'launch_pkg_ga.egg-info/SOURCES.txt'
+[2.240s] running build_ext
+[2.240s] Creating /home/ivan/ros2_ws_2402/install/launch_pkg_ga/lib/python3.10/site-packages/launch-pkg-ga.egg-link (link to .)
+[2.241s] 
+[2.241s] Installed /home/ivan/ros2_ws_2402/build/launch_pkg_ga
+[2.241s] running symlink_data

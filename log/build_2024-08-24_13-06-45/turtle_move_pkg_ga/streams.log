@@ -1,0 +1,38 @@
+[0.661s] Invoking command in '/home/ivan/ros2_ws_2402/build/turtle_move_pkg_ga': PYTHONPATH=/home/ivan/ros2_ws_2402/build/turtle_move_pkg_ga/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ivan/ros2_ws_2402/install/turtle_move_pkg_ga/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /home/ivan/ros2_ws_2402/build/turtle_move_pkg_ga/build
+[0.933s] running develop
+[0.936s] /home/ivan/.local/lib/python3.10/site-packages/setuptools/command/easy_install.py:156: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[0.936s]   warnings.warn(
+[1.085s] Removing /home/ivan/ros2_ws_2402/install/turtle_move_pkg_ga/lib/python3.10/site-packages/turtle-move-pkg-ga.egg-link (link to .)
+[1.106s] Invoked command in '/home/ivan/ros2_ws_2402/build/turtle_move_pkg_ga' returned '0': PYTHONPATH=/home/ivan/ros2_ws_2402/build/turtle_move_pkg_ga/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ivan/ros2_ws_2402/install/turtle_move_pkg_ga/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /home/ivan/ros2_ws_2402/build/turtle_move_pkg_ga/build
+[1.109s] Invoking command in '/home/ivan/ros2_ws_2402/src/turtle_move_pkg_ga': PYTHONPATH=/home/ivan/ros2_ws_2402/build/turtle_move_pkg_ga/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ivan/ros2_ws_2402/install/turtle_move_pkg_ga/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/turtle_move_pkg_ga build --build-base /home/ivan/ros2_ws_2402/build/turtle_move_pkg_ga/build install --record /home/ivan/ros2_ws_2402/build/turtle_move_pkg_ga/install.log --single-version-externally-managed install_data --force
+[1.342s] running egg_info
+[1.344s] writing ../../build/turtle_move_pkg_ga/turtle_move_pkg_ga.egg-info/PKG-INFO
+[1.344s] writing dependency_links to ../../build/turtle_move_pkg_ga/turtle_move_pkg_ga.egg-info/dependency_links.txt
+[1.344s] writing entry points to ../../build/turtle_move_pkg_ga/turtle_move_pkg_ga.egg-info/entry_points.txt
+[1.344s] writing requirements to ../../build/turtle_move_pkg_ga/turtle_move_pkg_ga.egg-info/requires.txt
+[1.344s] writing top-level names to ../../build/turtle_move_pkg_ga/turtle_move_pkg_ga.egg-info/top_level.txt
+[1.346s] reading manifest file '../../build/turtle_move_pkg_ga/turtle_move_pkg_ga.egg-info/SOURCES.txt'
+[1.349s] writing manifest file '../../build/turtle_move_pkg_ga/turtle_move_pkg_ga.egg-info/SOURCES.txt'
+[1.349s] running build
+[1.349s] running build_py
+[1.349s] creating /home/ivan/ros2_ws_2402/build/turtle_move_pkg_ga/build
+[1.349s] creating /home/ivan/ros2_ws_2402/build/turtle_move_pkg_ga/build/lib
+[1.349s] creating /home/ivan/ros2_ws_2402/build/turtle_move_pkg_ga/build/lib/turtle_move_pkg_ga
+[1.349s] copying turtle_move_pkg_ga/__init__.py -> /home/ivan/ros2_ws_2402/build/turtle_move_pkg_ga/build/lib/turtle_move_pkg_ga
+[1.350s] copying turtle_move_pkg_ga/turtle_move_node_ga.py -> /home/ivan/ros2_ws_2402/build/turtle_move_pkg_ga/build/lib/turtle_move_pkg_ga
+[1.350s] running install
+[1.350s] running install_lib
+[1.351s] creating /home/ivan/ros2_ws_2402/install/turtle_move_pkg_ga/lib/python3.10/site-packages/turtle_move_pkg_ga
+[1.351s] copying /home/ivan/ros2_ws_2402/build/turtle_move_pkg_ga/build/lib/turtle_move_pkg_ga/__init__.py -> /home/ivan/ros2_ws_2402/install/turtle_move_pkg_ga/lib/python3.10/site-packages/turtle_move_pkg_ga
+[1.351s] copying /home/ivan/ros2_ws_2402/build/turtle_move_pkg_ga/build/lib/turtle_move_pkg_ga/turtle_move_node_ga.py -> /home/ivan/ros2_ws_2402/install/turtle_move_pkg_ga/lib/python3.10/site-packages/turtle_move_pkg_ga
+[1.352s] byte-compiling /home/ivan/ros2_ws_2402/install/turtle_move_pkg_ga/lib/python3.10/site-packages/turtle_move_pkg_ga/__init__.py to __init__.cpython-310.pyc
+[1.352s] byte-compiling /home/ivan/ros2_ws_2402/install/turtle_move_pkg_ga/lib/python3.10/site-packages/turtle_move_pkg_ga/turtle_move_node_ga.py to turtle_move_node_ga.cpython-310.pyc
+[1.353s] running install_data
+[1.353s] copying resource/turtle_move_pkg_ga -> /home/ivan/ros2_ws_2402/install/turtle_move_pkg_ga/share/ament_index/resource_index/packages
+[1.353s] copying package.xml -> /home/ivan/ros2_ws_2402/install/turtle_move_pkg_ga/share/turtle_move_pkg_ga
+[1.353s] running install_egg_info
+[1.355s] Copying ../../build/turtle_move_pkg_ga/turtle_move_pkg_ga.egg-info to /home/ivan/ros2_ws_2402/install/turtle_move_pkg_ga/lib/python3.10/site-packages/turtle_move_pkg_ga-0.0.0-py3.10.egg-info
+[1.357s] running install_scripts
+[1.377s] Installing turtle_move_node_ga script to /home/ivan/ros2_ws_2402/install/turtle_move_pkg_ga/lib/turtle_move_pkg_ga
+[1.377s] writing list of installed files to '/home/ivan/ros2_ws_2402/build/turtle_move_pkg_ga/install.log'
+[1.397s] Invoked command in '/home/ivan/ros2_ws_2402/src/turtle_move_pkg_ga' returned '0': PYTHONPATH=/home/ivan/ros2_ws_2402/build/turtle_move_pkg_ga/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ivan/ros2_ws_2402/install/turtle_move_pkg_ga/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/turtle_move_pkg_ga build --build-base /home/ivan/ros2_ws_2402/build/turtle_move_pkg_ga/build install --record /home/ivan/ros2_ws_2402/build/turtle_move_pkg_ga/install.log --single-version-externally-managed install_data --force

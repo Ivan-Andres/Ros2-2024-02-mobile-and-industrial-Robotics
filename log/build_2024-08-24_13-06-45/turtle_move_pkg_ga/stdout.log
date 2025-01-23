@@ -1,0 +1,32 @@
+running develop
+Removing /home/ivan/ros2_ws_2402/install/turtle_move_pkg_ga/lib/python3.10/site-packages/turtle-move-pkg-ga.egg-link (link to .)
+running egg_info
+writing ../../build/turtle_move_pkg_ga/turtle_move_pkg_ga.egg-info/PKG-INFO
+writing dependency_links to ../../build/turtle_move_pkg_ga/turtle_move_pkg_ga.egg-info/dependency_links.txt
+writing entry points to ../../build/turtle_move_pkg_ga/turtle_move_pkg_ga.egg-info/entry_points.txt
+writing requirements to ../../build/turtle_move_pkg_ga/turtle_move_pkg_ga.egg-info/requires.txt
+writing top-level names to ../../build/turtle_move_pkg_ga/turtle_move_pkg_ga.egg-info/top_level.txt
+reading manifest file '../../build/turtle_move_pkg_ga/turtle_move_pkg_ga.egg-info/SOURCES.txt'
+writing manifest file '../../build/turtle_move_pkg_ga/turtle_move_pkg_ga.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/ivan/ros2_ws_2402/build/turtle_move_pkg_ga/build
+creating /home/ivan/ros2_ws_2402/build/turtle_move_pkg_ga/build/lib
+creating /home/ivan/ros2_ws_2402/build/turtle_move_pkg_ga/build/lib/turtle_move_pkg_ga
+copying turtle_move_pkg_ga/__init__.py -> /home/ivan/ros2_ws_2402/build/turtle_move_pkg_ga/build/lib/turtle_move_pkg_ga
+copying turtle_move_pkg_ga/turtle_move_node_ga.py -> /home/ivan/ros2_ws_2402/build/turtle_move_pkg_ga/build/lib/turtle_move_pkg_ga
+running install
+running install_lib
+creating /home/ivan/ros2_ws_2402/install/turtle_move_pkg_ga/lib/python3.10/site-packages/turtle_move_pkg_ga
+copying /home/ivan/ros2_ws_2402/build/turtle_move_pkg_ga/build/lib/turtle_move_pkg_ga/__init__.py -> /home/ivan/ros2_ws_2402/install/turtle_move_pkg_ga/lib/python3.10/site-packages/turtle_move_pkg_ga
+copying /home/ivan/ros2_ws_2402/build/turtle_move_pkg_ga/build/lib/turtle_move_pkg_ga/turtle_move_node_ga.py -> /home/ivan/ros2_ws_2402/install/turtle_move_pkg_ga/lib/python3.10/site-packages/turtle_move_pkg_ga
+byte-compiling /home/ivan/ros2_ws_2402/install/turtle_move_pkg_ga/lib/python3.10/site-packages/turtle_move_pkg_ga/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/ivan/ros2_ws_2402/install/turtle_move_pkg_ga/lib/python3.10/site-packages/turtle_move_pkg_ga/turtle_move_node_ga.py to turtle_move_node_ga.cpython-310.pyc
+running install_data
+copying resource/turtle_move_pkg_ga -> /home/ivan/ros2_ws_2402/install/turtle_move_pkg_ga/share/ament_index/resource_index/packages
+copying package.xml -> /home/ivan/ros2_ws_2402/install/turtle_move_pkg_ga/share/turtle_move_pkg_ga
+running install_egg_info
+Copying ../../build/turtle_move_pkg_ga/turtle_move_pkg_ga.egg-info to /home/ivan/ros2_ws_2402/install/turtle_move_pkg_ga/lib/python3.10/site-packages/turtle_move_pkg_ga-0.0.0-py3.10.egg-info
+running install_scripts
+Installing turtle_move_node_ga script to /home/ivan/ros2_ws_2402/install/turtle_move_pkg_ga/lib/turtle_move_pkg_ga
+writing list of installed files to '/home/ivan/ros2_ws_2402/build/turtle_move_pkg_ga/install.log'

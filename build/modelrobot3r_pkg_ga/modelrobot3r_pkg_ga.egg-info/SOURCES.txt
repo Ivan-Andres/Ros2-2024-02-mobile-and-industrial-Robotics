@@ -1,0 +1,17 @@
+package.xml
+setup.cfg
+setup.py
+launch/robot_launch_ga.launch.py
+launch/simulator_ga.launch.py
+model/robot_3r_ga.urdf.xacro
+model/rviz3r_config.rviz
+modelrobot3r_pkg_ga/WheelController.py
+modelrobot3r_pkg_ga/__init__.py
+modelrobot3r_pkg_ga.egg-info/PKG-INFO
+modelrobot3r_pkg_ga.egg-info/SOURCES.txt
+modelrobot3r_pkg_ga.egg-info/dependency_links.txt
+modelrobot3r_pkg_ga.egg-info/entry_points.txt
+modelrobot3r_pkg_ga.egg-info/requires.txt
+modelrobot3r_pkg_ga.egg-info/top_level.txt
+modelrobot3r_pkg_ga.egg-info/zip-safe
+resource/modelrobot3r_pkg_ga

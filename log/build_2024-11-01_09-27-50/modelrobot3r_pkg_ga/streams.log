@@ -1,0 +1,19 @@
+[1.633s] Invoking command in '/home/ivan/ros2_ws_2402/build/modelrobot3r_pkg_ga': PYTHONPATH=/home/ivan/ros2_ws_2402/build/modelrobot3r_pkg_ga/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ivan/ros2_ws_2402/install/modelrobot3r_pkg_ga/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/ivan/ros2_ws_2402/build/modelrobot3r_pkg_ga/build --no-deps symlink_data
+[2.126s] running develop
+[2.126s] /home/ivan/.local/lib/python3.10/site-packages/setuptools/command/easy_install.py:156: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[2.127s]   warnings.warn(
+[2.428s] running egg_info
+[2.428s] writing modelrobot3r_pkg_ga.egg-info/PKG-INFO
+[2.429s] writing dependency_links to modelrobot3r_pkg_ga.egg-info/dependency_links.txt
+[2.429s] writing entry points to modelrobot3r_pkg_ga.egg-info/entry_points.txt
+[2.429s] writing requirements to modelrobot3r_pkg_ga.egg-info/requires.txt
+[2.432s] writing top-level names to modelrobot3r_pkg_ga.egg-info/top_level.txt
+[2.432s] reading manifest file 'modelrobot3r_pkg_ga.egg-info/SOURCES.txt'
+[2.432s] writing manifest file 'modelrobot3r_pkg_ga.egg-info/SOURCES.txt'
+[2.433s] running build_ext
+[2.434s] Creating /home/ivan/ros2_ws_2402/install/modelrobot3r_pkg_ga/lib/python3.10/site-packages/modelrobot3r-pkg-ga.egg-link (link to .)
+[2.435s] Installing WheelController script to /home/ivan/ros2_ws_2402/install/modelrobot3r_pkg_ga/lib/modelrobot3r_pkg_ga
+[2.435s] 
+[2.435s] Installed /home/ivan/ros2_ws_2402/build/modelrobot3r_pkg_ga
+[2.435s] running symlink_data
+[2.858s] Invoked command in '/home/ivan/ros2_ws_2402/build/modelrobot3r_pkg_ga' returned '0': PYTHONPATH=/home/ivan/ros2_ws_2402/build/modelrobot3r_pkg_ga/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ivan/ros2_ws_2402/install/modelrobot3r_pkg_ga/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/ivan/ros2_ws_2402/build/modelrobot3r_pkg_ga/build --no-deps symlink_data

@@ -1,0 +1,18 @@
+[1.764s] Invoking command in '/home/ivan/ros2_ws_2402/build/launch_pkg_ga': PYTHONPATH=/home/ivan/ros2_ws_2402/build/launch_pkg_ga/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ivan/ros2_ws_2402/install/launch_pkg_ga/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/ivan/ros2_ws_2402/build/launch_pkg_ga/build --no-deps symlink_data
+[2.239s] running develop
+[2.241s] /home/ivan/.local/lib/python3.10/site-packages/setuptools/command/easy_install.py:156: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[2.241s]   warnings.warn(
+[2.565s] running egg_info
+[2.565s] writing launch_pkg_ga.egg-info/PKG-INFO
+[2.565s] writing dependency_links to launch_pkg_ga.egg-info/dependency_links.txt
+[2.565s] writing entry points to launch_pkg_ga.egg-info/entry_points.txt
+[2.568s] writing requirements to launch_pkg_ga.egg-info/requires.txt
+[2.568s] writing top-level names to launch_pkg_ga.egg-info/top_level.txt
+[2.568s] reading manifest file 'launch_pkg_ga.egg-info/SOURCES.txt'
+[2.568s] writing manifest file 'launch_pkg_ga.egg-info/SOURCES.txt'
+[2.568s] running build_ext
+[2.568s] Creating /home/ivan/ros2_ws_2402/install/launch_pkg_ga/lib/python3.10/site-packages/launch-pkg-ga.egg-link (link to .)
+[2.568s] 
+[2.568s] Installed /home/ivan/ros2_ws_2402/build/launch_pkg_ga
+[2.568s] running symlink_data
+[2.888s] Invoked command in '/home/ivan/ros2_ws_2402/build/launch_pkg_ga' returned '0': PYTHONPATH=/home/ivan/ros2_ws_2402/build/launch_pkg_ga/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ivan/ros2_ws_2402/install/launch_pkg_ga/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/ivan/ros2_ws_2402/build/launch_pkg_ga/build --no-deps symlink_data

@@ -1,0 +1,31 @@
+[1.588s] Invoking command in '/home/ivan/ros2_ws_2402/src/build/modelrobot_pkg_ga': PYTHONPATH=/home/ivan/ros2_ws_2402/src/build/modelrobot_pkg_ga/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ivan/ros2_ws_2402/src/install/modelrobot_pkg_ga/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/ivan/ros2_ws_2402/src/build/modelrobot_pkg_ga/build --no-deps symlink_data
+[1.866s] running develop
+[1.866s] /home/ivan/.local/lib/python3.10/site-packages/setuptools/command/easy_install.py:156: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[1.866s]   warnings.warn(
+[2.041s] running egg_info
+[2.042s] creating modelrobot_pkg_ga.egg-info
+[2.044s] writing modelrobot_pkg_ga.egg-info/PKG-INFO
+[2.044s] writing dependency_links to modelrobot_pkg_ga.egg-info/dependency_links.txt
+[2.044s] writing entry points to modelrobot_pkg_ga.egg-info/entry_points.txt
+[2.044s] writing requirements to modelrobot_pkg_ga.egg-info/requires.txt
+[2.044s] writing top-level names to modelrobot_pkg_ga.egg-info/top_level.txt
+[2.044s] writing manifest file 'modelrobot_pkg_ga.egg-info/SOURCES.txt'
+[2.047s] reading manifest file 'modelrobot_pkg_ga.egg-info/SOURCES.txt'
+[2.047s] writing manifest file 'modelrobot_pkg_ga.egg-info/SOURCES.txt'
+[2.047s] running build_ext
+[2.047s] Creating /home/ivan/ros2_ws_2402/src/install/modelrobot_pkg_ga/lib/python3.10/site-packages/modelrobot-pkg-ga.egg-link (link to .)
+[2.048s] 
+[2.048s] Installed /home/ivan/ros2_ws_2402/src/build/modelrobot_pkg_ga
+[2.049s] running symlink_data
+[2.049s] creating /home/ivan/ros2_ws_2402/src/install/modelrobot_pkg_ga/share/ament_index
+[2.049s] creating /home/ivan/ros2_ws_2402/src/install/modelrobot_pkg_ga/share/ament_index/resource_index
+[2.049s] creating /home/ivan/ros2_ws_2402/src/install/modelrobot_pkg_ga/share/ament_index/resource_index/packages
+[2.049s] symbolically linking /home/ivan/ros2_ws_2402/src/build/modelrobot_pkg_ga/resource/modelrobot_pkg_ga -> /home/ivan/ros2_ws_2402/src/install/modelrobot_pkg_ga/share/ament_index/resource_index/packages
+[2.049s] symbolically linking /home/ivan/ros2_ws_2402/src/build/modelrobot_pkg_ga/package.xml -> /home/ivan/ros2_ws_2402/src/install/modelrobot_pkg_ga/share/modelrobot_pkg_ga
+[2.049s] creating /home/ivan/ros2_ws_2402/src/install/modelrobot_pkg_ga/share/modelrobot_pkg_ga/launch
+[2.049s] symbolically linking /home/ivan/ros2_ws_2402/src/build/modelrobot_pkg_ga/launch/simulator_ga.launch.py -> /home/ivan/ros2_ws_2402/src/install/modelrobot_pkg_ga/share/modelrobot_pkg_ga/launch
+[2.049s] symbolically linking /home/ivan/ros2_ws_2402/src/build/modelrobot_pkg_ga/launch/robot_launch_ga.launch.py -> /home/ivan/ros2_ws_2402/src/install/modelrobot_pkg_ga/share/modelrobot_pkg_ga/launch
+[2.049s] creating /home/ivan/ros2_ws_2402/src/install/modelrobot_pkg_ga/share/modelrobot_pkg_ga/model
+[2.049s] symbolically linking /home/ivan/ros2_ws_2402/src/build/modelrobot_pkg_ga/model/robot_car_ga.urdf.xacro -> /home/ivan/ros2_ws_2402/src/install/modelrobot_pkg_ga/share/modelrobot_pkg_ga/model
+[2.049s] symbolically linking /home/ivan/ros2_ws_2402/src/build/modelrobot_pkg_ga/model/rviz_config.rviz -> /home/ivan/ros2_ws_2402/src/install/modelrobot_pkg_ga/share/modelrobot_pkg_ga/model
+[2.082s] Invoked command in '/home/ivan/ros2_ws_2402/src/build/modelrobot_pkg_ga' returned '0': PYTHONPATH=/home/ivan/ros2_ws_2402/src/build/modelrobot_pkg_ga/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ivan/ros2_ws_2402/src/install/modelrobot_pkg_ga/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/ivan/ros2_ws_2402/src/build/modelrobot_pkg_ga/build --no-deps symlink_data

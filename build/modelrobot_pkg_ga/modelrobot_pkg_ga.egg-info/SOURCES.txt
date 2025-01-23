@@ -1,0 +1,16 @@
+package.xml
+setup.cfg
+setup.py
+launch/robot_launch_ga.launch.py
+launch/simulator_ga.launch.py
+model/robot_car_ga.urdf.xacro
+model/rviz_config.rviz
+modelrobot_pkg_ga/__init__.py
+modelrobot_pkg_ga.egg-info/PKG-INFO
+modelrobot_pkg_ga.egg-info/SOURCES.txt
+modelrobot_pkg_ga.egg-info/dependency_links.txt
+modelrobot_pkg_ga.egg-info/entry_points.txt
+modelrobot_pkg_ga.egg-info/requires.txt
+modelrobot_pkg_ga.egg-info/top_level.txt
+modelrobot_pkg_ga.egg-info/zip-safe
+resource/modelrobot_pkg_ga

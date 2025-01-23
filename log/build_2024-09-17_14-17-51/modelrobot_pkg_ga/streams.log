@@ -1,0 +1,17 @@
+[1.615s] Invoking command in '/home/ivan/ros2_ws_2402/build/modelrobot_pkg_ga': PYTHONPATH=/home/ivan/ros2_ws_2402/build/modelrobot_pkg_ga/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ivan/ros2_ws_2402/install/modelrobot_pkg_ga/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/ivan/ros2_ws_2402/build/modelrobot_pkg_ga/build --no-deps symlink_data
+[2.013s] running develop
+[2.013s] /home/ivan/.local/lib/python3.10/site-packages/setuptools/command/easy_install.py:156: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[2.014s]   warnings.warn(
+[2.223s] running egg_info
+[2.225s] writing modelrobot_pkg_ga.egg-info/PKG-INFO
+[2.228s] writing dependency_links to modelrobot_pkg_ga.egg-info/dependency_links.txt
+[2.229s] writing entry points to modelrobot_pkg_ga.egg-info/entry_points.txt
+[2.229s] writing requirements to modelrobot_pkg_ga.egg-info/requires.txt
+[2.230s] writing top-level names to modelrobot_pkg_ga.egg-info/top_level.txt
+[2.230s] reading manifest file 'modelrobot_pkg_ga.egg-info/SOURCES.txt'
+[2.231s] writing manifest file 'modelrobot_pkg_ga.egg-info/SOURCES.txt'
+[2.232s] running build_ext
+[2.233s] Creating /home/ivan/ros2_ws_2402/install/modelrobot_pkg_ga/lib/python3.10/site-packages/modelrobot-pkg-ga.egg-link (link to .)
+[2.233s] 
+[2.234s] Installed /home/ivan/ros2_ws_2402/build/modelrobot_pkg_ga
+[2.235s] running symlink_data

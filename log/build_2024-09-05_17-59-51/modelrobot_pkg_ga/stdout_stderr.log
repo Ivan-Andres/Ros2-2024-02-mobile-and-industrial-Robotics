@@ -1,0 +1,17 @@
+running develop
+/home/ivan/.local/lib/python3.10/site-packages/setuptools/command/easy_install.py:156: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+running egg_info
+writing modelrobot_pkg_ga.egg-info/PKG-INFO
+writing dependency_links to modelrobot_pkg_ga.egg-info/dependency_links.txt
+writing entry points to modelrobot_pkg_ga.egg-info/entry_points.txt
+writing requirements to modelrobot_pkg_ga.egg-info/requires.txt
+writing top-level names to modelrobot_pkg_ga.egg-info/top_level.txt
+reading manifest file 'modelrobot_pkg_ga.egg-info/SOURCES.txt'
+writing manifest file 'modelrobot_pkg_ga.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/ivan/ros2_ws_2402/install/modelrobot_pkg_ga/lib/python3.10/site-packages/modelrobot-pkg-ga.egg-link (link to .)
+
+Installed /home/ivan/ros2_ws_2402/build/modelrobot_pkg_ga
+running symlink_data
+symbolically linking /home/ivan/ros2_ws_2402/build/modelrobot_pkg_ga/launch/simulator_ga.launch.py -> /home/ivan/ros2_ws_2402/install/modelrobot_pkg_ga/share/modelrobot_pkg_ga/launch

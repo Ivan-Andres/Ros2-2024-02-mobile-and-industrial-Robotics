@@ -1,0 +1,19 @@
+[0.500s] Invoking command in '/home/ivan/ros2_ws_2402/build/turtle_move_pkg_ga': PYTHONPATH=/home/ivan/ros2_ws_2402/build/turtle_move_pkg_ga/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ivan/ros2_ws_2402/install/turtle_move_pkg_ga/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/ivan/ros2_ws_2402/build/turtle_move_pkg_ga/build --no-deps symlink_data
+[0.716s] running develop
+[0.716s] /home/ivan/.local/lib/python3.10/site-packages/setuptools/command/easy_install.py:156: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[0.716s]   warnings.warn(
+[0.838s] running egg_info
+[0.838s] writing turtle_move_pkg_ga.egg-info/PKG-INFO
+[0.838s] writing dependency_links to turtle_move_pkg_ga.egg-info/dependency_links.txt
+[0.839s] writing entry points to turtle_move_pkg_ga.egg-info/entry_points.txt
+[0.839s] writing requirements to turtle_move_pkg_ga.egg-info/requires.txt
+[0.839s] writing top-level names to turtle_move_pkg_ga.egg-info/top_level.txt
+[0.840s] reading manifest file 'turtle_move_pkg_ga.egg-info/SOURCES.txt'
+[0.840s] writing manifest file 'turtle_move_pkg_ga.egg-info/SOURCES.txt'
+[0.841s] running build_ext
+[0.842s] Creating /home/ivan/ros2_ws_2402/install/turtle_move_pkg_ga/lib/python3.10/site-packages/turtle-move-pkg-ga.egg-link (link to .)
+[0.843s] Installing turtle_move_node_ga script to /home/ivan/ros2_ws_2402/install/turtle_move_pkg_ga/lib/turtle_move_pkg_ga
+[0.843s] 
+[0.843s] Installed /home/ivan/ros2_ws_2402/build/turtle_move_pkg_ga
+[0.843s] running symlink_data
+[0.870s] Invoked command in '/home/ivan/ros2_ws_2402/build/turtle_move_pkg_ga' returned '0': PYTHONPATH=/home/ivan/ros2_ws_2402/build/turtle_move_pkg_ga/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ivan/ros2_ws_2402/install/turtle_move_pkg_ga/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/ivan/ros2_ws_2402/build/turtle_move_pkg_ga/build --no-deps symlink_data

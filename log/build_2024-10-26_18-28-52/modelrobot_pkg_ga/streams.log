@@ -1,0 +1,20 @@
+[2.001s] Invoking command in '/home/ivan/ros2_ws_2402/build/modelrobot_pkg_ga': PYTHONPATH=/home/ivan/ros2_ws_2402/build/modelrobot_pkg_ga/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ivan/ros2_ws_2402/install/modelrobot_pkg_ga/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/ivan/ros2_ws_2402/build/modelrobot_pkg_ga/build --no-deps symlink_data
+[2.460s] running develop
+[2.460s] /home/ivan/.local/lib/python3.10/site-packages/setuptools/command/easy_install.py:156: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[2.460s]   warnings.warn(
+[2.700s] /home/ivan/.local/lib/python3.10/site-packages/setuptools/command/easy_install.py:330: UserWarning: Unbuilt egg for launch-pkg-ga 0.0.0 (/home/ivan/ros2_ws_2402/build/launch_pkg_ga)
+[2.700s]   self.local_index = Environment(self.shadow_path + sys.path)
+[2.777s] running egg_info
+[2.777s] writing modelrobot_pkg_ga.egg-info/PKG-INFO
+[2.778s] writing dependency_links to modelrobot_pkg_ga.egg-info/dependency_links.txt
+[2.778s] writing entry points to modelrobot_pkg_ga.egg-info/entry_points.txt
+[2.778s] writing requirements to modelrobot_pkg_ga.egg-info/requires.txt
+[2.778s] writing top-level names to modelrobot_pkg_ga.egg-info/top_level.txt
+[2.779s] reading manifest file 'modelrobot_pkg_ga.egg-info/SOURCES.txt'
+[2.779s] writing manifest file 'modelrobot_pkg_ga.egg-info/SOURCES.txt'
+[2.784s] running build_ext
+[2.785s] Creating /home/ivan/ros2_ws_2402/install/modelrobot_pkg_ga/lib/python3.10/site-packages/modelrobot-pkg-ga.egg-link (link to .)
+[2.785s] 
+[2.785s] Installed /home/ivan/ros2_ws_2402/build/modelrobot_pkg_ga
+[2.785s] running symlink_data
+[3.181s] Invoked command in '/home/ivan/ros2_ws_2402/build/modelrobot_pkg_ga' returned '0': PYTHONPATH=/home/ivan/ros2_ws_2402/build/modelrobot_pkg_ga/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ivan/ros2_ws_2402/install/modelrobot_pkg_ga/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/ivan/ros2_ws_2402/build/modelrobot_pkg_ga/build --no-deps symlink_data

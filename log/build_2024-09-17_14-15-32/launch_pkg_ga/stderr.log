@@ -1,0 +1,4 @@
+/home/ivan/.local/lib/python3.10/site-packages/setuptools/command/easy_install.py:156: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+/home/ivan/.local/lib/python3.10/site-packages/setuptools/command/easy_install.py:330: UserWarning: Unbuilt egg for modelrobot3r-pkg-ga [unknown version] (/home/ivan/ros2_ws_2402/build/modelrobot3r_pkg_ga)
+  self.local_index = Environment(self.shadow_path + sys.path)

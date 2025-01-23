@@ -1,0 +1,44 @@
+[0.608s] Invoking command in '/home/ivan/ros2_ws_2402/build/turtle_move_pkg_ga': PYTHONPATH=/home/ivan/ros2_ws_2402/build/turtle_move_pkg_ga/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ivan/ros2_ws_2402/install/turtle_move_pkg_ga/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/ivan/ros2_ws_2402/build/turtle_move_pkg_ga/build --no-deps symlink_data
+[0.748s] /home/ivan/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:268: UserWarning: Unknown distribution option: 'tests_require'
+[0.748s]   warnings.warn(msg)
+[0.876s] running develop
+[0.876s] /home/ivan/.local/lib/python3.10/site-packages/setuptools/command/develop.py:41: EasyInstallDeprecationWarning: easy_install command is deprecated.
+[0.876s] !!
+[0.876s] 
+[0.876s]         ********************************************************************************
+[0.877s]         Please avoid running ``setup.py`` and ``easy_install``.
+[0.877s]         Instead, use pypa/build, pypa/installer or other
+[0.877s]         standards-based tools.
+[0.877s] 
+[0.877s]         See https://github.com/pypa/setuptools/issues/917 for details.
+[0.877s]         ********************************************************************************
+[0.877s] 
+[0.877s] !!
+[0.877s]   easy_install.initialize_options(self)
+[0.889s] Traceback (most recent call last):
+[0.889s]   File "/home/ivan/ros2_ws_2402/build/turtle_move_pkg_ga/setup.py", line 5, in <module>
+[0.889s]     setup(
+[0.889s]   File "/home/ivan/.local/lib/python3.10/site-packages/setuptools/__init__.py", line 111, in setup
+[0.889s]     return distutils.core.setup(**attrs)
+[0.889s]   File "/home/ivan/.local/lib/python3.10/site-packages/setuptools/_distutils/core.py", line 184, in setup
+[0.889s]     return run_commands(dist)
+[0.889s]   File "/home/ivan/.local/lib/python3.10/site-packages/setuptools/_distutils/core.py", line 200, in run_commands
+[0.889s]     dist.run_commands()
+[0.890s]   File "/home/ivan/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py", line 964, in run_commands
+[0.890s]     self.run_command(cmd)
+[0.890s]   File "/home/ivan/.local/lib/python3.10/site-packages/setuptools/dist.py", line 948, in run_command
+[0.890s]     super().run_command(command)
+[0.890s]   File "/home/ivan/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py", line 982, in run_command
+[0.890s]     cmd_obj.ensure_finalized()
+[0.890s]   File "/home/ivan/.local/lib/python3.10/site-packages/setuptools/_distutils/cmd.py", line 111, in ensure_finalized
+[0.890s]     self.finalize_options()
+[0.890s]   File "/home/ivan/.local/lib/python3.10/site-packages/setuptools/command/develop.py", line 51, in finalize_options
+[0.890s]     easy_install.finalize_options(self)
+[0.890s]   File "/home/ivan/.local/lib/python3.10/site-packages/setuptools/command/easy_install.py", line 251, in finalize_options
+[0.890s]     'dist_fullname': self.distribution.get_fullname(),
+[0.890s]   File "/home/ivan/.local/lib/python3.10/site-packages/setuptools/_core_metadata.py", line 267, in get_fullname
+[0.890s]     return _distribution_fullname(self.get_name(), self.get_version())
+[0.890s]   File "/home/ivan/.local/lib/python3.10/site-packages/setuptools/_core_metadata.py", line 285, in _distribution_fullname
+[0.890s]     canonicalize_version(version, strip_trailing_zero=False),
+[0.890s] TypeError: canonicalize_version() got an unexpected keyword argument 'strip_trailing_zero'
+[0.910s] Invoked command in '/home/ivan/ros2_ws_2402/build/turtle_move_pkg_ga' returned '1': PYTHONPATH=/home/ivan/ros2_ws_2402/build/turtle_move_pkg_ga/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ivan/ros2_ws_2402/install/turtle_move_pkg_ga/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/ivan/ros2_ws_2402/build/turtle_move_pkg_ga/build --no-deps symlink_data

@@ -1,0 +1,170 @@
+<?xml version='1.0'?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="robot_3r">
+
+    <xacro:property name="blx" value="${0.186}" />
+    <xacro:property name="bly" value="${0.136}" />
+    <xacro:property name="blz" value="${0.01}" />
+
+    <xacro:property name="oly" value="${0.09-(0.019/2)}" />
+    <xacro:property name="olx" value="${0.03942}" />
+    <xacro:property name="olz" value="${0}" />
+
+    <xacro:property name="crad" value="${0.042}" />
+    <xacro:property name="clen" value="${0.019}" />
+    
+    <xacro:property name="srad" value="${0.042/2}" />
+
+    <xacro:macro name="wheel_macro" params="p_name p_radius p_length">
+        <link name="${p_name}">
+            <visual>
+                <!-- box geometry -->
+                <geometry>
+                    <cylinder radius="${p_radius}" length="${p_length}"/>
+                </geometry>
+                <material name="verde_obs">
+                    <color rgba="0.156 0.705 0.388 1.0"/>
+                </material>
+                <origin xyz="0 0 0" rpy="${pi/2} 0 0 "/>
+            </visual>
+
+            <inertial>
+                <mass value="1"/>
+                <origin xyz="0 0 0" rpy="0 0 0 "/>
+                <inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
+            </inertial>
+
+            <collision>
+                <geometry>
+                    <cylinder radius="${p_radius}" length="${p_length}"/>
+                </geometry>
+                <origin xyz="0 0 0" rpy="${pi/2} 0 0 "/>
+            </collision>
+        </link>
+    </xacro:macro>
+
+    <link name="base_link">
+        <!-- ... -->
+    </link>
+
+    <!-- Joint prismatica para movimiento en el eje X -->
+    <joint name="base_chasis_joint_x" type="prismatic">
+        <parent link="base_link"/>
+        <child link="chasis_link_x"/>
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <axis xyz="1 0 0"/>
+        <limit lower="-1.0" upper="1.0" effort="10" velocity="1.0"/> <!-- Ajusta los límites -->
+    </joint>
+
+    <link name="chasis_link_x">
+        <!-- ... -->
+    </link>
+
+    <!-- Joint prismatica para movimiento en el eje Y -->
+    <joint name="base_chasis_joint_y" type="prismatic">
+        <parent link="chasis_link_x"/>
+        <child link="chasis_link_y"/>
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <axis xyz="0 1 0"/>
+        <limit lower="-1.0" upper="1.0" effort="10" velocity="1.0"/>
+    </joint>
+
+    <link name="chasis_link_y">
+        <!-- ... -->
+    </link>
+
+    <!-- Joint rotacional para giro en Z -->
+    <joint name="base_chasis_joint_yaw" type="revolute">
+        <parent link="chasis_link_y"/>
+        <child link="chasis_link"/>
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <axis xyz="0 0 1"/>
+        <limit lower="-3.14159" upper="3.14159" effort="5" velocity="1.0"/>
+    </joint>
+
+    <link name="chasis_link">
+        <visual>
+            <!-- box geometry -->
+            <geometry>
+                <box size="${blx} ${bly} ${blz}"/>
+            </geometry>
+            <material name="cian">
+                <color rgba="0.203 0.596 0.858 0.8"/>
+            </material>
+            <origin xyz="0 0 0" rpy="0 0 0 "/>
+        </visual>
+
+        <inertial>
+            <mass value="1"/>
+            <origin xyz="0 0 0" rpy="0 0 0 "/>
+            <inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
+        </inertial>
+
+        <collision>
+            <!-- box geometry -->
+            <geometry>
+                <box size="${blx} ${bly} ${blz}"/>
+            </geometry>
+            <origin xyz="0 0 0" rpy="0 0 0 "/>
+        </collision>
+    </link>
+
+    <joint name="chasis_rwheel_joint" type="continuous">
+        <parent link="chasis_link"/>
+        <child link="rwheel_link"/>
+        <origin xyz="${olx} ${oly} ${olz}" rpy="0 0 0"/>
+        <axis xyz="0 1 0"/>
+        <!-- Limit the maximum velocity; here, it's set to 10 rad/s, adjust as needed -->
+        <limit effort="1" velocity="125.66"/>
+        <dynamics damping="0" friction="0"/>
+    </joint>
+
+    <xacro:wheel_macro p_name="rwheel_link"
+                       p_radius="${crad}" 
+                       p_length="${clen}"/>
+
+    <joint name="chasis_lwheel_joint" type="continuous">
+        <parent link="chasis_link"/>
+        <child link="lwheel_link"/>
+        <origin xyz="${olx} ${-oly} ${olz}" rpy="0 0 0"/>
+        <axis xyz="0 1 0"/>
+        <!-- Limit the maximum velocity; here, it's set to 10 rad/s, adjust as needed -->
+        <limit effort="1" velocity="125.66"/>
+        <dynamics damping="0" friction="0.0"/>
+    </joint>
+
+    <xacro:wheel_macro p_name="lwheel_link"
+                       p_radius="${crad}" 
+                       p_length="${clen}"/>
+
+    <joint name="chasis_caster_joint" type="fixed">
+        <parent link="chasis_link"/>
+        <child link="caster_link"/>
+        <origin xyz="-0.08058 0 ${-srad}" rpy="0 0 0"/>
+    </joint>
+
+    <link name="caster_link">
+        <visual>
+            <geometry>
+                <sphere radius="${srad}"/>
+            </geometry>
+            <material name="gris">
+                <color rgba="0.501 0.545 0.588 1.0"/>
+            </material>
+            <origin xyz="0 0 0" rpy="0 0 0 "/>
+        </visual>
+
+        <inertial>
+            <mass value="1"/>
+            <origin xyz="0 0 0" rpy="0 0 0 "/>
+            <inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
+        </inertial>
+
+        <collision>
+            <geometry>
+                <sphere radius="${srad}"/>
+            </geometry>
+            <origin xyz="0 0 0" rpy="0 0 0 "/>
+        </collision>
+    </link>
+
+</robot>

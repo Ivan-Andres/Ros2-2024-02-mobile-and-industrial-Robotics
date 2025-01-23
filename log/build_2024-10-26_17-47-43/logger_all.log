@@ -1,0 +1,370 @@
+[0.123s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[0.123s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f6c9b434df0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f6c9b434880>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f6c9b434880>>)
+[0.328s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.328s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.328s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.328s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.328s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.328s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.328s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/ivan/ros2_ws_2402'
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extensions ['ignore', 'ignore_ament_install']
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extension 'ignore'
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) ignored
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) by extensions ['ignore', 'ignore_ament_install']
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) by extension 'ignore'
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) ignored
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch_pkg_ga) by extensions ['ignore', 'ignore_ament_install']
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch_pkg_ga) by extension 'ignore'
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch_pkg_ga) by extension 'ignore_ament_install'
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch_pkg_ga) by extensions ['colcon_pkg']
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch_pkg_ga) by extension 'colcon_pkg'
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch_pkg_ga) by extensions ['colcon_meta']
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch_pkg_ga) by extension 'colcon_meta'
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch_pkg_ga) by extensions ['ros']
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch_pkg_ga) by extension 'ros'
+[0.358s] DEBUG:colcon.colcon_core.package_identification:Package 'src/launch_pkg_ga' with type 'ros.ament_python' and name 'launch_pkg_ga'
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) by extensions ['ignore', 'ignore_ament_install']
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) by extension 'ignore'
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) ignored
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(src/modelrobot3r_pkg_ga) by extensions ['ignore', 'ignore_ament_install']
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(src/modelrobot3r_pkg_ga) by extension 'ignore'
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(src/modelrobot3r_pkg_ga) by extension 'ignore_ament_install'
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(src/modelrobot3r_pkg_ga) by extensions ['colcon_pkg']
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(src/modelrobot3r_pkg_ga) by extension 'colcon_pkg'
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(src/modelrobot3r_pkg_ga) by extensions ['colcon_meta']
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(src/modelrobot3r_pkg_ga) by extension 'colcon_meta'
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(src/modelrobot3r_pkg_ga) by extensions ['ros']
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(src/modelrobot3r_pkg_ga) by extension 'ros'
+[0.360s] DEBUG:colcon.colcon_core.package_identification:Package 'src/modelrobot3r_pkg_ga' with type 'ros.ament_python' and name 'modelrobot3r_pkg_ga'
+[0.360s] Level 1:colcon.colcon_core.package_identification:_identify(src/modelrobot_pkg_ga) by extensions ['ignore', 'ignore_ament_install']
+[0.360s] Level 1:colcon.colcon_core.package_identification:_identify(src/modelrobot_pkg_ga) by extension 'ignore'
+[0.360s] Level 1:colcon.colcon_core.package_identification:_identify(src/modelrobot_pkg_ga) by extension 'ignore_ament_install'
+[0.360s] Level 1:colcon.colcon_core.package_identification:_identify(src/modelrobot_pkg_ga) by extensions ['colcon_pkg']
+[0.360s] Level 1:colcon.colcon_core.package_identification:_identify(src/modelrobot_pkg_ga) by extension 'colcon_pkg'
+[0.360s] Level 1:colcon.colcon_core.package_identification:_identify(src/modelrobot_pkg_ga) by extensions ['colcon_meta']
+[0.360s] Level 1:colcon.colcon_core.package_identification:_identify(src/modelrobot_pkg_ga) by extension 'colcon_meta'
+[0.361s] Level 1:colcon.colcon_core.package_identification:_identify(src/modelrobot_pkg_ga) by extensions ['ros']
+[0.361s] Level 1:colcon.colcon_core.package_identification:_identify(src/modelrobot_pkg_ga) by extension 'ros'
+[0.361s] DEBUG:colcon.colcon_core.package_identification:Package 'src/modelrobot_pkg_ga' with type 'ros.ament_python' and name 'modelrobot_pkg_ga'
+[0.361s] Level 1:colcon.colcon_core.package_identification:_identify(src/temp) by extensions ['ignore', 'ignore_ament_install']
+[0.361s] Level 1:colcon.colcon_core.package_identification:_identify(src/temp) by extension 'ignore'
+[0.361s] Level 1:colcon.colcon_core.package_identification:_identify(src/temp) by extension 'ignore_ament_install'
+[0.361s] Level 1:colcon.colcon_core.package_identification:_identify(src/temp) by extensions ['colcon_pkg']
+[0.361s] Level 1:colcon.colcon_core.package_identification:_identify(src/temp) by extension 'colcon_pkg'
+[0.361s] Level 1:colcon.colcon_core.package_identification:_identify(src/temp) by extensions ['colcon_meta']
+[0.361s] Level 1:colcon.colcon_core.package_identification:_identify(src/temp) by extension 'colcon_meta'
+[0.362s] Level 1:colcon.colcon_core.package_identification:_identify(src/temp) by extensions ['ros']
+[0.362s] Level 1:colcon.colcon_core.package_identification:_identify(src/temp) by extension 'ros'
+[0.362s] Level 1:colcon.colcon_core.package_identification:_identify(src/temp) by extensions ['cmake', 'python']
+[0.362s] Level 1:colcon.colcon_core.package_identification:_identify(src/temp) by extension 'cmake'
+[0.362s] Level 1:colcon.colcon_core.package_identification:_identify(src/temp) by extension 'python'
+[0.362s] Level 1:colcon.colcon_core.package_identification:_identify(src/temp) by extensions ['python_setup_py']
+[0.362s] Level 1:colcon.colcon_core.package_identification:_identify(src/temp) by extension 'python_setup_py'
+[0.362s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtle_move_pkg_ga) by extensions ['ignore', 'ignore_ament_install']
+[0.362s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtle_move_pkg_ga) by extension 'ignore'
+[0.362s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtle_move_pkg_ga) by extension 'ignore_ament_install'
+[0.362s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtle_move_pkg_ga) by extensions ['colcon_pkg']
+[0.362s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtle_move_pkg_ga) by extension 'colcon_pkg'
+[0.362s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtle_move_pkg_ga) by extensions ['colcon_meta']
+[0.362s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtle_move_pkg_ga) by extension 'colcon_meta'
+[0.362s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtle_move_pkg_ga) by extensions ['ros']
+[0.362s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtle_move_pkg_ga) by extension 'ros'
+[0.363s] DEBUG:colcon.colcon_core.package_identification:Package 'src/turtle_move_pkg_ga' with type 'ros.ament_python' and name 'turtle_move_pkg_ga'
+[0.363s] Level 1:colcon.colcon_core.package_identification:_identify(src/twist2tf2_pkg_g01) by extensions ['ignore', 'ignore_ament_install']
+[0.363s] Level 1:colcon.colcon_core.package_identification:_identify(src/twist2tf2_pkg_g01) by extension 'ignore'
+[0.363s] Level 1:colcon.colcon_core.package_identification:_identify(src/twist2tf2_pkg_g01) by extension 'ignore_ament_install'
+[0.363s] Level 1:colcon.colcon_core.package_identification:_identify(src/twist2tf2_pkg_g01) by extensions ['colcon_pkg']
+[0.363s] Level 1:colcon.colcon_core.package_identification:_identify(src/twist2tf2_pkg_g01) by extension 'colcon_pkg'
+[0.363s] Level 1:colcon.colcon_core.package_identification:_identify(src/twist2tf2_pkg_g01) by extensions ['colcon_meta']
+[0.363s] Level 1:colcon.colcon_core.package_identification:_identify(src/twist2tf2_pkg_g01) by extension 'colcon_meta'
+[0.363s] Level 1:colcon.colcon_core.package_identification:_identify(src/twist2tf2_pkg_g01) by extensions ['ros']
+[0.364s] Level 1:colcon.colcon_core.package_identification:_identify(src/twist2tf2_pkg_g01) by extension 'ros'
+[0.364s] DEBUG:colcon.colcon_core.package_identification:Package 'src/twist2tf2_pkg_g01' with type 'ros.ament_python' and name 'twist2tf2_pkg_g01'
+[0.364s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.364s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.364s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.364s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.364s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.386s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.387s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.389s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 5 installed packages in /home/ivan/ros2_ws_2402/install
+[0.390s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 280 installed packages in /opt/ros/humble
+[0.392s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.436s] Level 5:colcon.colcon_core.verb:set package 'launch_pkg_ga' build argument 'cmake_args' from command line to 'None'
+[0.436s] Level 5:colcon.colcon_core.verb:set package 'launch_pkg_ga' build argument 'cmake_target' from command line to 'None'
+[0.436s] Level 5:colcon.colcon_core.verb:set package 'launch_pkg_ga' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.436s] Level 5:colcon.colcon_core.verb:set package 'launch_pkg_ga' build argument 'cmake_clean_cache' from command line to 'False'
+[0.436s] Level 5:colcon.colcon_core.verb:set package 'launch_pkg_ga' build argument 'cmake_clean_first' from command line to 'False'
+[0.436s] Level 5:colcon.colcon_core.verb:set package 'launch_pkg_ga' build argument 'cmake_force_configure' from command line to 'False'
+[0.436s] Level 5:colcon.colcon_core.verb:set package 'launch_pkg_ga' build argument 'ament_cmake_args' from command line to 'None'
+[0.436s] Level 5:colcon.colcon_core.verb:set package 'launch_pkg_ga' build argument 'catkin_cmake_args' from command line to 'None'
+[0.436s] Level 5:colcon.colcon_core.verb:set package 'launch_pkg_ga' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.436s] DEBUG:colcon.colcon_core.verb:Building package 'launch_pkg_ga' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ivan/ros2_ws_2402/build/launch_pkg_ga', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ivan/ros2_ws_2402/install/launch_pkg_ga', 'merge_install': False, 'path': '/home/ivan/ros2_ws_2402/src/launch_pkg_ga', 'symlink_install': True, 'test_result_base': None}
+[0.437s] Level 5:colcon.colcon_core.verb:set package 'modelrobot3r_pkg_ga' build argument 'cmake_args' from command line to 'None'
+[0.437s] Level 5:colcon.colcon_core.verb:set package 'modelrobot3r_pkg_ga' build argument 'cmake_target' from command line to 'None'
+[0.437s] Level 5:colcon.colcon_core.verb:set package 'modelrobot3r_pkg_ga' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.437s] Level 5:colcon.colcon_core.verb:set package 'modelrobot3r_pkg_ga' build argument 'cmake_clean_cache' from command line to 'False'
+[0.437s] Level 5:colcon.colcon_core.verb:set package 'modelrobot3r_pkg_ga' build argument 'cmake_clean_first' from command line to 'False'
+[0.437s] Level 5:colcon.colcon_core.verb:set package 'modelrobot3r_pkg_ga' build argument 'cmake_force_configure' from command line to 'False'
+[0.437s] Level 5:colcon.colcon_core.verb:set package 'modelrobot3r_pkg_ga' build argument 'ament_cmake_args' from command line to 'None'
+[0.437s] Level 5:colcon.colcon_core.verb:set package 'modelrobot3r_pkg_ga' build argument 'catkin_cmake_args' from command line to 'None'
+[0.437s] Level 5:colcon.colcon_core.verb:set package 'modelrobot3r_pkg_ga' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.437s] DEBUG:colcon.colcon_core.verb:Building package 'modelrobot3r_pkg_ga' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ivan/ros2_ws_2402/build/modelrobot3r_pkg_ga', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ivan/ros2_ws_2402/install/modelrobot3r_pkg_ga', 'merge_install': False, 'path': '/home/ivan/ros2_ws_2402/src/modelrobot3r_pkg_ga', 'symlink_install': True, 'test_result_base': None}
+[0.437s] Level 5:colcon.colcon_core.verb:set package 'modelrobot_pkg_ga' build argument 'cmake_args' from command line to 'None'
+[0.438s] Level 5:colcon.colcon_core.verb:set package 'modelrobot_pkg_ga' build argument 'cmake_target' from command line to 'None'
+[0.438s] Level 5:colcon.colcon_core.verb:set package 'modelrobot_pkg_ga' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.438s] Level 5:colcon.colcon_core.verb:set package 'modelrobot_pkg_ga' build argument 'cmake_clean_cache' from command line to 'False'
+[0.438s] Level 5:colcon.colcon_core.verb:set package 'modelrobot_pkg_ga' build argument 'cmake_clean_first' from command line to 'False'
+[0.438s] Level 5:colcon.colcon_core.verb:set package 'modelrobot_pkg_ga' build argument 'cmake_force_configure' from command line to 'False'
+[0.438s] Level 5:colcon.colcon_core.verb:set package 'modelrobot_pkg_ga' build argument 'ament_cmake_args' from command line to 'None'
+[0.438s] Level 5:colcon.colcon_core.verb:set package 'modelrobot_pkg_ga' build argument 'catkin_cmake_args' from command line to 'None'
+[0.438s] Level 5:colcon.colcon_core.verb:set package 'modelrobot_pkg_ga' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.438s] DEBUG:colcon.colcon_core.verb:Building package 'modelrobot_pkg_ga' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ivan/ros2_ws_2402/build/modelrobot_pkg_ga', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ivan/ros2_ws_2402/install/modelrobot_pkg_ga', 'merge_install': False, 'path': '/home/ivan/ros2_ws_2402/src/modelrobot_pkg_ga', 'symlink_install': True, 'test_result_base': None}
+[0.438s] Level 5:colcon.colcon_core.verb:set package 'turtle_move_pkg_ga' build argument 'cmake_args' from command line to 'None'
+[0.438s] Level 5:colcon.colcon_core.verb:set package 'turtle_move_pkg_ga' build argument 'cmake_target' from command line to 'None'
+[0.438s] Level 5:colcon.colcon_core.verb:set package 'turtle_move_pkg_ga' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.438s] Level 5:colcon.colcon_core.verb:set package 'turtle_move_pkg_ga' build argument 'cmake_clean_cache' from command line to 'False'
+[0.438s] Level 5:colcon.colcon_core.verb:set package 'turtle_move_pkg_ga' build argument 'cmake_clean_first' from command line to 'False'
+[0.438s] Level 5:colcon.colcon_core.verb:set package 'turtle_move_pkg_ga' build argument 'cmake_force_configure' from command line to 'False'
+[0.438s] Level 5:colcon.colcon_core.verb:set package 'turtle_move_pkg_ga' build argument 'ament_cmake_args' from command line to 'None'
+[0.438s] Level 5:colcon.colcon_core.verb:set package 'turtle_move_pkg_ga' build argument 'catkin_cmake_args' from command line to 'None'
+[0.438s] Level 5:colcon.colcon_core.verb:set package 'turtle_move_pkg_ga' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.438s] DEBUG:colcon.colcon_core.verb:Building package 'turtle_move_pkg_ga' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ivan/ros2_ws_2402/build/turtle_move_pkg_ga', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ivan/ros2_ws_2402/install/turtle_move_pkg_ga', 'merge_install': False, 'path': '/home/ivan/ros2_ws_2402/src/turtle_move_pkg_ga', 'symlink_install': True, 'test_result_base': None}
+[0.439s] Level 5:colcon.colcon_core.verb:set package 'twist2tf2_pkg_g01' build argument 'cmake_args' from command line to 'None'
+[0.439s] Level 5:colcon.colcon_core.verb:set package 'twist2tf2_pkg_g01' build argument 'cmake_target' from command line to 'None'
+[0.439s] Level 5:colcon.colcon_core.verb:set package 'twist2tf2_pkg_g01' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.439s] Level 5:colcon.colcon_core.verb:set package 'twist2tf2_pkg_g01' build argument 'cmake_clean_cache' from command line to 'False'
+[0.439s] Level 5:colcon.colcon_core.verb:set package 'twist2tf2_pkg_g01' build argument 'cmake_clean_first' from command line to 'False'
+[0.439s] Level 5:colcon.colcon_core.verb:set package 'twist2tf2_pkg_g01' build argument 'cmake_force_configure' from command line to 'False'
+[0.439s] Level 5:colcon.colcon_core.verb:set package 'twist2tf2_pkg_g01' build argument 'ament_cmake_args' from command line to 'None'
+[0.439s] Level 5:colcon.colcon_core.verb:set package 'twist2tf2_pkg_g01' build argument 'catkin_cmake_args' from command line to 'None'
+[0.439s] Level 5:colcon.colcon_core.verb:set package 'twist2tf2_pkg_g01' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.439s] DEBUG:colcon.colcon_core.verb:Building package 'twist2tf2_pkg_g01' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ivan/ros2_ws_2402/build/twist2tf2_pkg_g01', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ivan/ros2_ws_2402/install/twist2tf2_pkg_g01', 'merge_install': False, 'path': '/home/ivan/ros2_ws_2402/src/twist2tf2_pkg_g01', 'symlink_install': True, 'test_result_base': None}
+[0.439s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.440s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.441s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/ivan/ros2_ws_2402/src/launch_pkg_ga' with build type 'ament_python'
+[0.441s] Level 1:colcon.colcon_core.shell:create_environment_hook('launch_pkg_ga', 'ament_prefix_path')
+[0.444s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.444s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ivan/ros2_ws_2402/install/launch_pkg_ga/share/launch_pkg_ga/hook/ament_prefix_path.ps1'
+[0.445s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ivan/ros2_ws_2402/install/launch_pkg_ga/share/launch_pkg_ga/hook/ament_prefix_path.dsv'
+[0.445s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ivan/ros2_ws_2402/install/launch_pkg_ga/share/launch_pkg_ga/hook/ament_prefix_path.sh'
+[0.446s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.446s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.449s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/ivan/ros2_ws_2402/src/modelrobot3r_pkg_ga' with build type 'ament_python'
+[0.449s] Level 1:colcon.colcon_core.shell:create_environment_hook('modelrobot3r_pkg_ga', 'ament_prefix_path')
+[0.450s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ivan/ros2_ws_2402/install/modelrobot3r_pkg_ga/share/modelrobot3r_pkg_ga/hook/ament_prefix_path.ps1'
+[0.450s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ivan/ros2_ws_2402/install/modelrobot3r_pkg_ga/share/modelrobot3r_pkg_ga/hook/ament_prefix_path.dsv'
+[0.452s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ivan/ros2_ws_2402/install/modelrobot3r_pkg_ga/share/modelrobot3r_pkg_ga/hook/ament_prefix_path.sh'
+[0.452s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.452s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.456s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/ivan/ros2_ws_2402/src/modelrobot_pkg_ga' with build type 'ament_python'
+[0.457s] Level 1:colcon.colcon_core.shell:create_environment_hook('modelrobot_pkg_ga', 'ament_prefix_path')
+[0.457s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ivan/ros2_ws_2402/install/modelrobot_pkg_ga/share/modelrobot_pkg_ga/hook/ament_prefix_path.ps1'
+[0.458s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ivan/ros2_ws_2402/install/modelrobot_pkg_ga/share/modelrobot_pkg_ga/hook/ament_prefix_path.dsv'
+[0.458s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ivan/ros2_ws_2402/install/modelrobot_pkg_ga/share/modelrobot_pkg_ga/hook/ament_prefix_path.sh'
+[0.459s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.459s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.462s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/ivan/ros2_ws_2402/src/turtle_move_pkg_ga' with build type 'ament_python'
+[0.462s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtle_move_pkg_ga', 'ament_prefix_path')
+[0.463s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ivan/ros2_ws_2402/install/turtle_move_pkg_ga/share/turtle_move_pkg_ga/hook/ament_prefix_path.ps1'
+[0.464s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ivan/ros2_ws_2402/install/turtle_move_pkg_ga/share/turtle_move_pkg_ga/hook/ament_prefix_path.dsv'
+[0.467s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ivan/ros2_ws_2402/install/turtle_move_pkg_ga/share/turtle_move_pkg_ga/hook/ament_prefix_path.sh'
+[0.469s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.469s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.800s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/ivan/ros2_ws_2402/src/launch_pkg_ga'
+[0.801s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.801s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.100s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/ivan/ros2_ws_2402/src/modelrobot3r_pkg_ga'
+[1.100s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.100s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.424s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/ivan/ros2_ws_2402/src/modelrobot_pkg_ga'
+[1.425s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.425s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.740s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/ivan/ros2_ws_2402/src/turtle_move_pkg_ga'
+[1.740s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.740s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.306s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ivan/ros2_ws_2402/build/modelrobot3r_pkg_ga': PYTHONPATH=/home/ivan/ros2_ws_2402/build/modelrobot3r_pkg_ga/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ivan/ros2_ws_2402/install/modelrobot3r_pkg_ga/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/ivan/ros2_ws_2402/build/modelrobot3r_pkg_ga/build --no-deps symlink_data
+[2.358s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ivan/ros2_ws_2402/build/launch_pkg_ga': PYTHONPATH=/home/ivan/ros2_ws_2402/build/launch_pkg_ga/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ivan/ros2_ws_2402/install/launch_pkg_ga/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/ivan/ros2_ws_2402/build/launch_pkg_ga/build --no-deps symlink_data
+[2.407s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ivan/ros2_ws_2402/build/turtle_move_pkg_ga': PYTHONPATH=/home/ivan/ros2_ws_2402/build/turtle_move_pkg_ga/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ivan/ros2_ws_2402/install/turtle_move_pkg_ga/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/ivan/ros2_ws_2402/build/turtle_move_pkg_ga/build --no-deps symlink_data
+[2.409s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ivan/ros2_ws_2402/build/modelrobot_pkg_ga': PYTHONPATH=/home/ivan/ros2_ws_2402/build/modelrobot_pkg_ga/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ivan/ros2_ws_2402/install/modelrobot_pkg_ga/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/ivan/ros2_ws_2402/build/modelrobot_pkg_ga/build --no-deps symlink_data
+[3.063s] Level 1:colcon.colcon_core.shell:create_environment_hook('modelrobot3r_pkg_ga', 'pythonpath_develop')
+[3.064s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ivan/ros2_ws_2402/build/modelrobot3r_pkg_ga/share/modelrobot3r_pkg_ga/hook/pythonpath_develop.ps1'
+[3.065s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ivan/ros2_ws_2402/build/modelrobot3r_pkg_ga/share/modelrobot3r_pkg_ga/hook/pythonpath_develop.dsv'
+[3.066s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ivan/ros2_ws_2402/build/modelrobot3r_pkg_ga' returned '0': PYTHONPATH=/home/ivan/ros2_ws_2402/build/modelrobot3r_pkg_ga/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ivan/ros2_ws_2402/install/modelrobot3r_pkg_ga/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/ivan/ros2_ws_2402/build/modelrobot3r_pkg_ga/build --no-deps symlink_data
+[3.067s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ivan/ros2_ws_2402/build/modelrobot3r_pkg_ga/share/modelrobot3r_pkg_ga/hook/pythonpath_develop.sh'
+[3.070s] Level 1:colcon.colcon_core.environment:checking '/home/ivan/ros2_ws_2402/install/modelrobot3r_pkg_ga' for CMake module files
+[3.070s] Level 1:colcon.colcon_core.environment:checking '/home/ivan/ros2_ws_2402/install/modelrobot3r_pkg_ga' for CMake config files
+[3.073s] Level 1:colcon.colcon_core.environment:checking '/home/ivan/ros2_ws_2402/install/modelrobot3r_pkg_ga/lib'
+[3.074s] Level 1:colcon.colcon_core.environment:checking '/home/ivan/ros2_ws_2402/install/modelrobot3r_pkg_ga/bin'
+[3.074s] Level 1:colcon.colcon_core.environment:checking '/home/ivan/ros2_ws_2402/install/modelrobot3r_pkg_ga/lib/pkgconfig/modelrobot3r_pkg_ga.pc'
+[3.074s] Level 1:colcon.colcon_core.environment:checking '/home/ivan/ros2_ws_2402/install/modelrobot3r_pkg_ga/lib/python3.10/site-packages'
+[3.074s] Level 1:colcon.colcon_core.shell:create_environment_hook('modelrobot3r_pkg_ga', 'pythonpath')
+[3.074s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ivan/ros2_ws_2402/install/modelrobot3r_pkg_ga/share/modelrobot3r_pkg_ga/hook/pythonpath.ps1'
+[3.079s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ivan/ros2_ws_2402/install/modelrobot3r_pkg_ga/share/modelrobot3r_pkg_ga/hook/pythonpath.dsv'
+[3.079s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ivan/ros2_ws_2402/install/modelrobot3r_pkg_ga/share/modelrobot3r_pkg_ga/hook/pythonpath.sh'
+[3.080s] Level 1:colcon.colcon_core.environment:checking '/home/ivan/ros2_ws_2402/install/modelrobot3r_pkg_ga/bin'
+[3.080s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(modelrobot3r_pkg_ga)
+[3.081s] INFO:colcon.colcon_core.shell:Creating package script '/home/ivan/ros2_ws_2402/install/modelrobot3r_pkg_ga/share/modelrobot3r_pkg_ga/package.ps1'
+[3.085s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ivan/ros2_ws_2402/install/modelrobot3r_pkg_ga/share/modelrobot3r_pkg_ga/package.dsv'
+[3.087s] INFO:colcon.colcon_core.shell:Creating package script '/home/ivan/ros2_ws_2402/install/modelrobot3r_pkg_ga/share/modelrobot3r_pkg_ga/package.sh'
+[3.089s] INFO:colcon.colcon_core.shell:Creating package script '/home/ivan/ros2_ws_2402/install/modelrobot3r_pkg_ga/share/modelrobot3r_pkg_ga/package.bash'
+[3.090s] INFO:colcon.colcon_core.shell:Creating package script '/home/ivan/ros2_ws_2402/install/modelrobot3r_pkg_ga/share/modelrobot3r_pkg_ga/package.zsh'
+[3.093s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ivan/ros2_ws_2402/install/modelrobot3r_pkg_ga/share/colcon-core/packages/modelrobot3r_pkg_ga)
+[3.094s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/ivan/ros2_ws_2402/src/twist2tf2_pkg_g01' with build type 'ament_python'
+[3.096s] Level 1:colcon.colcon_core.shell:create_environment_hook('twist2tf2_pkg_g01', 'ament_prefix_path')
+[3.097s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ivan/ros2_ws_2402/install/twist2tf2_pkg_g01/share/twist2tf2_pkg_g01/hook/ament_prefix_path.ps1'
+[3.101s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ivan/ros2_ws_2402/install/twist2tf2_pkg_g01/share/twist2tf2_pkg_g01/hook/ament_prefix_path.dsv'
+[3.103s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ivan/ros2_ws_2402/install/twist2tf2_pkg_g01/share/twist2tf2_pkg_g01/hook/ament_prefix_path.sh'
+[3.104s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.104s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.469s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/ivan/ros2_ws_2402/src/twist2tf2_pkg_g01'
+[3.470s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.470s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.474s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtle_move_pkg_ga', 'pythonpath_develop')
+[3.475s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ivan/ros2_ws_2402/build/turtle_move_pkg_ga/share/turtle_move_pkg_ga/hook/pythonpath_develop.ps1'
+[3.476s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ivan/ros2_ws_2402/build/turtle_move_pkg_ga/share/turtle_move_pkg_ga/hook/pythonpath_develop.dsv'
+[3.476s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ivan/ros2_ws_2402/build/turtle_move_pkg_ga/share/turtle_move_pkg_ga/hook/pythonpath_develop.sh'
+[3.477s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ivan/ros2_ws_2402/build/turtle_move_pkg_ga' returned '0': PYTHONPATH=/home/ivan/ros2_ws_2402/build/turtle_move_pkg_ga/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ivan/ros2_ws_2402/install/turtle_move_pkg_ga/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/ivan/ros2_ws_2402/build/turtle_move_pkg_ga/build --no-deps symlink_data
+[3.478s] Level 1:colcon.colcon_core.environment:checking '/home/ivan/ros2_ws_2402/install/turtle_move_pkg_ga' for CMake module files
+[3.478s] Level 1:colcon.colcon_core.environment:checking '/home/ivan/ros2_ws_2402/install/turtle_move_pkg_ga' for CMake config files
+[3.478s] Level 1:colcon.colcon_core.environment:checking '/home/ivan/ros2_ws_2402/install/turtle_move_pkg_ga/lib'
+[3.478s] Level 1:colcon.colcon_core.environment:checking '/home/ivan/ros2_ws_2402/install/turtle_move_pkg_ga/bin'
+[3.478s] Level 1:colcon.colcon_core.environment:checking '/home/ivan/ros2_ws_2402/install/turtle_move_pkg_ga/lib/pkgconfig/turtle_move_pkg_ga.pc'
+[3.479s] Level 1:colcon.colcon_core.environment:checking '/home/ivan/ros2_ws_2402/install/turtle_move_pkg_ga/lib/python3.10/site-packages'
+[3.479s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtle_move_pkg_ga', 'pythonpath')
+[3.479s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ivan/ros2_ws_2402/install/turtle_move_pkg_ga/share/turtle_move_pkg_ga/hook/pythonpath.ps1'
+[3.479s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ivan/ros2_ws_2402/install/turtle_move_pkg_ga/share/turtle_move_pkg_ga/hook/pythonpath.dsv'
+[3.480s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ivan/ros2_ws_2402/install/turtle_move_pkg_ga/share/turtle_move_pkg_ga/hook/pythonpath.sh'
+[3.480s] Level 1:colcon.colcon_core.environment:checking '/home/ivan/ros2_ws_2402/install/turtle_move_pkg_ga/bin'
+[3.480s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtle_move_pkg_ga)
+[3.481s] INFO:colcon.colcon_core.shell:Creating package script '/home/ivan/ros2_ws_2402/install/turtle_move_pkg_ga/share/turtle_move_pkg_ga/package.ps1'
+[3.481s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ivan/ros2_ws_2402/install/turtle_move_pkg_ga/share/turtle_move_pkg_ga/package.dsv'
+[3.482s] INFO:colcon.colcon_core.shell:Creating package script '/home/ivan/ros2_ws_2402/install/turtle_move_pkg_ga/share/turtle_move_pkg_ga/package.sh'
+[3.482s] INFO:colcon.colcon_core.shell:Creating package script '/home/ivan/ros2_ws_2402/install/turtle_move_pkg_ga/share/turtle_move_pkg_ga/package.bash'
+[3.483s] INFO:colcon.colcon_core.shell:Creating package script '/home/ivan/ros2_ws_2402/install/turtle_move_pkg_ga/share/turtle_move_pkg_ga/package.zsh'
+[3.483s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ivan/ros2_ws_2402/install/turtle_move_pkg_ga/share/colcon-core/packages/turtle_move_pkg_ga)
+[3.483s] Level 1:colcon.colcon_core.shell:create_environment_hook('launch_pkg_ga', 'pythonpath_develop')
+[3.484s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ivan/ros2_ws_2402/build/launch_pkg_ga/share/launch_pkg_ga/hook/pythonpath_develop.ps1'
+[3.485s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ivan/ros2_ws_2402/build/launch_pkg_ga/share/launch_pkg_ga/hook/pythonpath_develop.dsv'
+[3.486s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ivan/ros2_ws_2402/build/launch_pkg_ga/share/launch_pkg_ga/hook/pythonpath_develop.sh'
+[3.487s] Level 1:colcon.colcon_core.environment:checking '/home/ivan/ros2_ws_2402/install/launch_pkg_ga' for CMake module files
+[3.487s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ivan/ros2_ws_2402/build/launch_pkg_ga' returned '0': PYTHONPATH=/home/ivan/ros2_ws_2402/build/launch_pkg_ga/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ivan/ros2_ws_2402/install/launch_pkg_ga/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/ivan/ros2_ws_2402/build/launch_pkg_ga/build --no-deps symlink_data
+[3.487s] Level 1:colcon.colcon_core.environment:checking '/home/ivan/ros2_ws_2402/install/launch_pkg_ga' for CMake config files
+[3.488s] Level 1:colcon.colcon_core.environment:checking '/home/ivan/ros2_ws_2402/install/launch_pkg_ga/lib'
+[3.488s] Level 1:colcon.colcon_core.environment:checking '/home/ivan/ros2_ws_2402/install/launch_pkg_ga/bin'
+[3.488s] Level 1:colcon.colcon_core.environment:checking '/home/ivan/ros2_ws_2402/install/launch_pkg_ga/lib/pkgconfig/launch_pkg_ga.pc'
+[3.488s] Level 1:colcon.colcon_core.environment:checking '/home/ivan/ros2_ws_2402/install/launch_pkg_ga/lib/python3.10/site-packages'
+[3.488s] Level 1:colcon.colcon_core.shell:create_environment_hook('launch_pkg_ga', 'pythonpath')
+[3.488s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ivan/ros2_ws_2402/install/launch_pkg_ga/share/launch_pkg_ga/hook/pythonpath.ps1'
+[3.489s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ivan/ros2_ws_2402/install/launch_pkg_ga/share/launch_pkg_ga/hook/pythonpath.dsv'
+[3.489s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ivan/ros2_ws_2402/install/launch_pkg_ga/share/launch_pkg_ga/hook/pythonpath.sh'
+[3.490s] Level 1:colcon.colcon_core.environment:checking '/home/ivan/ros2_ws_2402/install/launch_pkg_ga/bin'
+[3.490s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(launch_pkg_ga)
+[3.490s] INFO:colcon.colcon_core.shell:Creating package script '/home/ivan/ros2_ws_2402/install/launch_pkg_ga/share/launch_pkg_ga/package.ps1'
+[3.491s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ivan/ros2_ws_2402/install/launch_pkg_ga/share/launch_pkg_ga/package.dsv'
+[3.492s] INFO:colcon.colcon_core.shell:Creating package script '/home/ivan/ros2_ws_2402/install/launch_pkg_ga/share/launch_pkg_ga/package.sh'
+[3.492s] INFO:colcon.colcon_core.shell:Creating package script '/home/ivan/ros2_ws_2402/install/launch_pkg_ga/share/launch_pkg_ga/package.bash'
+[3.493s] INFO:colcon.colcon_core.shell:Creating package script '/home/ivan/ros2_ws_2402/install/launch_pkg_ga/share/launch_pkg_ga/package.zsh'
+[3.493s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ivan/ros2_ws_2402/install/launch_pkg_ga/share/colcon-core/packages/launch_pkg_ga)
+[3.494s] Level 1:colcon.colcon_core.shell:create_environment_hook('modelrobot_pkg_ga', 'pythonpath_develop')
+[3.495s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ivan/ros2_ws_2402/build/modelrobot_pkg_ga/share/modelrobot_pkg_ga/hook/pythonpath_develop.ps1'
+[3.495s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ivan/ros2_ws_2402/build/modelrobot_pkg_ga/share/modelrobot_pkg_ga/hook/pythonpath_develop.dsv'
+[3.496s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ivan/ros2_ws_2402/build/modelrobot_pkg_ga' returned '0': PYTHONPATH=/home/ivan/ros2_ws_2402/build/modelrobot_pkg_ga/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ivan/ros2_ws_2402/install/modelrobot_pkg_ga/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/ivan/ros2_ws_2402/build/modelrobot_pkg_ga/build --no-deps symlink_data
+[3.497s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ivan/ros2_ws_2402/build/modelrobot_pkg_ga/share/modelrobot_pkg_ga/hook/pythonpath_develop.sh'
+[3.498s] Level 1:colcon.colcon_core.environment:checking '/home/ivan/ros2_ws_2402/install/modelrobot_pkg_ga' for CMake module files
+[3.498s] Level 1:colcon.colcon_core.environment:checking '/home/ivan/ros2_ws_2402/install/modelrobot_pkg_ga' for CMake config files
+[3.499s] Level 1:colcon.colcon_core.environment:checking '/home/ivan/ros2_ws_2402/install/modelrobot_pkg_ga/lib'
+[3.499s] Level 1:colcon.colcon_core.environment:checking '/home/ivan/ros2_ws_2402/install/modelrobot_pkg_ga/bin'
+[3.499s] Level 1:colcon.colcon_core.environment:checking '/home/ivan/ros2_ws_2402/install/modelrobot_pkg_ga/lib/pkgconfig/modelrobot_pkg_ga.pc'
+[3.499s] Level 1:colcon.colcon_core.environment:checking '/home/ivan/ros2_ws_2402/install/modelrobot_pkg_ga/lib/python3.10/site-packages'
+[3.500s] Level 1:colcon.colcon_core.shell:create_environment_hook('modelrobot_pkg_ga', 'pythonpath')
+[3.500s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ivan/ros2_ws_2402/install/modelrobot_pkg_ga/share/modelrobot_pkg_ga/hook/pythonpath.ps1'
+[3.500s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ivan/ros2_ws_2402/install/modelrobot_pkg_ga/share/modelrobot_pkg_ga/hook/pythonpath.dsv'
+[3.501s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ivan/ros2_ws_2402/install/modelrobot_pkg_ga/share/modelrobot_pkg_ga/hook/pythonpath.sh'
+[3.502s] Level 1:colcon.colcon_core.environment:checking '/home/ivan/ros2_ws_2402/install/modelrobot_pkg_ga/bin'
+[3.502s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(modelrobot_pkg_ga)
+[3.502s] INFO:colcon.colcon_core.shell:Creating package script '/home/ivan/ros2_ws_2402/install/modelrobot_pkg_ga/share/modelrobot_pkg_ga/package.ps1'
+[3.503s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ivan/ros2_ws_2402/install/modelrobot_pkg_ga/share/modelrobot_pkg_ga/package.dsv'
+[3.503s] INFO:colcon.colcon_core.shell:Creating package script '/home/ivan/ros2_ws_2402/install/modelrobot_pkg_ga/share/modelrobot_pkg_ga/package.sh'
+[3.504s] INFO:colcon.colcon_core.shell:Creating package script '/home/ivan/ros2_ws_2402/install/modelrobot_pkg_ga/share/modelrobot_pkg_ga/package.bash'
+[3.505s] INFO:colcon.colcon_core.shell:Creating package script '/home/ivan/ros2_ws_2402/install/modelrobot_pkg_ga/share/modelrobot_pkg_ga/package.zsh'
+[3.505s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ivan/ros2_ws_2402/install/modelrobot_pkg_ga/share/colcon-core/packages/modelrobot_pkg_ga)
+[3.919s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ivan/ros2_ws_2402/build/twist2tf2_pkg_g01': PYTHONPATH=/home/ivan/ros2_ws_2402/build/twist2tf2_pkg_g01/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ivan/ros2_ws_2402/install/twist2tf2_pkg_g01/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/ivan/ros2_ws_2402/build/twist2tf2_pkg_g01/build --no-deps symlink_data
+[4.422s] Level 1:colcon.colcon_core.shell:create_environment_hook('twist2tf2_pkg_g01', 'pythonpath_develop')
+[4.422s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ivan/ros2_ws_2402/build/twist2tf2_pkg_g01/share/twist2tf2_pkg_g01/hook/pythonpath_develop.ps1'
+[4.423s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ivan/ros2_ws_2402/build/twist2tf2_pkg_g01' returned '0': PYTHONPATH=/home/ivan/ros2_ws_2402/build/twist2tf2_pkg_g01/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ivan/ros2_ws_2402/install/twist2tf2_pkg_g01/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/ivan/ros2_ws_2402/build/twist2tf2_pkg_g01/build --no-deps symlink_data
+[4.423s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ivan/ros2_ws_2402/build/twist2tf2_pkg_g01/share/twist2tf2_pkg_g01/hook/pythonpath_develop.dsv'
+[4.424s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ivan/ros2_ws_2402/build/twist2tf2_pkg_g01/share/twist2tf2_pkg_g01/hook/pythonpath_develop.sh'
+[4.424s] Level 1:colcon.colcon_core.environment:checking '/home/ivan/ros2_ws_2402/install/twist2tf2_pkg_g01' for CMake module files
+[4.425s] Level 1:colcon.colcon_core.environment:checking '/home/ivan/ros2_ws_2402/install/twist2tf2_pkg_g01' for CMake config files
+[4.425s] Level 1:colcon.colcon_core.environment:checking '/home/ivan/ros2_ws_2402/install/twist2tf2_pkg_g01/lib'
+[4.425s] Level 1:colcon.colcon_core.environment:checking '/home/ivan/ros2_ws_2402/install/twist2tf2_pkg_g01/bin'
+[4.425s] Level 1:colcon.colcon_core.environment:checking '/home/ivan/ros2_ws_2402/install/twist2tf2_pkg_g01/lib/pkgconfig/twist2tf2_pkg_g01.pc'
+[4.426s] Level 1:colcon.colcon_core.environment:checking '/home/ivan/ros2_ws_2402/install/twist2tf2_pkg_g01/lib/python3.10/site-packages'
+[4.426s] Level 1:colcon.colcon_core.shell:create_environment_hook('twist2tf2_pkg_g01', 'pythonpath')
+[4.426s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ivan/ros2_ws_2402/install/twist2tf2_pkg_g01/share/twist2tf2_pkg_g01/hook/pythonpath.ps1'
+[4.427s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ivan/ros2_ws_2402/install/twist2tf2_pkg_g01/share/twist2tf2_pkg_g01/hook/pythonpath.dsv'
+[4.427s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ivan/ros2_ws_2402/install/twist2tf2_pkg_g01/share/twist2tf2_pkg_g01/hook/pythonpath.sh'
+[4.428s] Level 1:colcon.colcon_core.environment:checking '/home/ivan/ros2_ws_2402/install/twist2tf2_pkg_g01/bin'
+[4.428s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(twist2tf2_pkg_g01)
+[4.428s] INFO:colcon.colcon_core.shell:Creating package script '/home/ivan/ros2_ws_2402/install/twist2tf2_pkg_g01/share/twist2tf2_pkg_g01/package.ps1'
+[4.429s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ivan/ros2_ws_2402/install/twist2tf2_pkg_g01/share/twist2tf2_pkg_g01/package.dsv'
+[4.430s] INFO:colcon.colcon_core.shell:Creating package script '/home/ivan/ros2_ws_2402/install/twist2tf2_pkg_g01/share/twist2tf2_pkg_g01/package.sh'
+[4.431s] INFO:colcon.colcon_core.shell:Creating package script '/home/ivan/ros2_ws_2402/install/twist2tf2_pkg_g01/share/twist2tf2_pkg_g01/package.bash'
+[4.431s] INFO:colcon.colcon_core.shell:Creating package script '/home/ivan/ros2_ws_2402/install/twist2tf2_pkg_g01/share/twist2tf2_pkg_g01/package.zsh'
+[4.432s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ivan/ros2_ws_2402/install/twist2tf2_pkg_g01/share/colcon-core/packages/twist2tf2_pkg_g01)
+[4.432s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[4.433s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[4.433s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[4.433s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[4.442s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[4.442s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[4.442s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[4.455s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[4.455s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ivan/ros2_ws_2402/install/local_setup.ps1'
+[4.456s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ivan/ros2_ws_2402/install/_local_setup_util_ps1.py'
+[4.458s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ivan/ros2_ws_2402/install/setup.ps1'
+[4.460s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ivan/ros2_ws_2402/install/local_setup.sh'
+[4.462s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ivan/ros2_ws_2402/install/_local_setup_util_sh.py'
+[4.463s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ivan/ros2_ws_2402/install/setup.sh'
+[4.465s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ivan/ros2_ws_2402/install/local_setup.bash'
+[4.467s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ivan/ros2_ws_2402/install/setup.bash'
+[4.469s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ivan/ros2_ws_2402/install/local_setup.zsh'
+[4.470s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ivan/ros2_ws_2402/install/setup.zsh'

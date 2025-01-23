@@ -1,0 +1,15 @@
+running develop
+running egg_info
+writing modelrobot3r_pkg_ga.egg-info/PKG-INFO
+writing dependency_links to modelrobot3r_pkg_ga.egg-info/dependency_links.txt
+writing entry points to modelrobot3r_pkg_ga.egg-info/entry_points.txt
+writing requirements to modelrobot3r_pkg_ga.egg-info/requires.txt
+writing top-level names to modelrobot3r_pkg_ga.egg-info/top_level.txt
+reading manifest file 'modelrobot3r_pkg_ga.egg-info/SOURCES.txt'
+writing manifest file 'modelrobot3r_pkg_ga.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/ivan/ros2_ws_2402/install/modelrobot3r_pkg_ga/lib/python3.10/site-packages/modelrobot3r-pkg-ga.egg-link (link to .)
+Installing WheelController script to /home/ivan/ros2_ws_2402/install/modelrobot3r_pkg_ga/lib/modelrobot3r_pkg_ga
+
+Installed /home/ivan/ros2_ws_2402/build/modelrobot3r_pkg_ga
+running symlink_data

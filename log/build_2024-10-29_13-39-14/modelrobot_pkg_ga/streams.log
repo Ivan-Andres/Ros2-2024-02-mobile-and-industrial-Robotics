@@ -1,0 +1,18 @@
+[1.461s] Invoking command in '/home/ivan/ros2_ws_2402/build/modelrobot_pkg_ga': PYTHONPATH=/home/ivan/ros2_ws_2402/build/modelrobot_pkg_ga/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ivan/ros2_ws_2402/install/modelrobot_pkg_ga/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/ivan/ros2_ws_2402/build/modelrobot_pkg_ga/build --no-deps symlink_data
+[1.792s] running develop
+[1.793s] /home/ivan/.local/lib/python3.10/site-packages/setuptools/command/easy_install.py:156: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[1.793s]   warnings.warn(
+[1.974s] running egg_info
+[1.974s] writing modelrobot_pkg_ga.egg-info/PKG-INFO
+[1.975s] writing dependency_links to modelrobot_pkg_ga.egg-info/dependency_links.txt
+[1.975s] writing entry points to modelrobot_pkg_ga.egg-info/entry_points.txt
+[1.976s] writing requirements to modelrobot_pkg_ga.egg-info/requires.txt
+[1.976s] writing top-level names to modelrobot_pkg_ga.egg-info/top_level.txt
+[1.977s] reading manifest file 'modelrobot_pkg_ga.egg-info/SOURCES.txt'
+[1.978s] writing manifest file 'modelrobot_pkg_ga.egg-info/SOURCES.txt'
+[1.979s] running build_ext
+[1.979s] Creating /home/ivan/ros2_ws_2402/install/modelrobot_pkg_ga/lib/python3.10/site-packages/modelrobot-pkg-ga.egg-link (link to .)
+[1.987s] 
+[1.987s] Installed /home/ivan/ros2_ws_2402/build/modelrobot_pkg_ga
+[1.989s] running symlink_data
+[2.053s] Invoked command in '/home/ivan/ros2_ws_2402/build/modelrobot_pkg_ga' returned '0': PYTHONPATH=/home/ivan/ros2_ws_2402/build/modelrobot_pkg_ga/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ivan/ros2_ws_2402/install/modelrobot_pkg_ga/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/ivan/ros2_ws_2402/build/modelrobot_pkg_ga/build --no-deps symlink_data

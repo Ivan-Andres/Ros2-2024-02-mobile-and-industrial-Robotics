@@ -1,0 +1,16 @@
+/home/ivan/.local/lib/python3.10/site-packages/setuptools/command/easy_install.py:156: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+running develop
+running egg_info
+writing launch_pkg_ga.egg-info/PKG-INFO
+writing dependency_links to launch_pkg_ga.egg-info/dependency_links.txt
+writing entry points to launch_pkg_ga.egg-info/entry_points.txt
+writing requirements to launch_pkg_ga.egg-info/requires.txt
+writing top-level names to launch_pkg_ga.egg-info/top_level.txt
+reading manifest file 'launch_pkg_ga.egg-info/SOURCES.txt'
+writing manifest file 'launch_pkg_ga.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/ivan/ros2_ws_2402/install/launch_pkg_ga/lib/python3.10/site-packages/launch-pkg-ga.egg-link (link to .)
+
+Installed /home/ivan/ros2_ws_2402/build/launch_pkg_ga
+running symlink_data

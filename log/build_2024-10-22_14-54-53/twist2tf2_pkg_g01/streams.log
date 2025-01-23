@@ -1,0 +1,25 @@
+[0.600s] Invoking command in '/home/ivan/ros2_ws_2402/build/twist2tf2_pkg_g01': PYTHONPATH=/home/ivan/ros2_ws_2402/build/twist2tf2_pkg_g01/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ivan/ros2_ws_2402/install/twist2tf2_pkg_g01/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/ivan/ros2_ws_2402/build/twist2tf2_pkg_g01/build --no-deps symlink_data
+[0.853s] running develop
+[0.853s] /home/ivan/.local/lib/python3.10/site-packages/setuptools/command/easy_install.py:156: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[0.853s]   warnings.warn(
+[0.996s] running egg_info
+[0.996s] creating twist2tf2_pkg_g01.egg-info
+[0.996s] writing twist2tf2_pkg_g01.egg-info/PKG-INFO
+[0.999s] writing dependency_links to twist2tf2_pkg_g01.egg-info/dependency_links.txt
+[0.999s] writing entry points to twist2tf2_pkg_g01.egg-info/entry_points.txt
+[0.999s] writing requirements to twist2tf2_pkg_g01.egg-info/requires.txt
+[0.999s] writing top-level names to twist2tf2_pkg_g01.egg-info/top_level.txt
+[0.999s] writing manifest file 'twist2tf2_pkg_g01.egg-info/SOURCES.txt'
+[0.999s] reading manifest file 'twist2tf2_pkg_g01.egg-info/SOURCES.txt'
+[0.999s] writing manifest file 'twist2tf2_pkg_g01.egg-info/SOURCES.txt'
+[1.001s] running build_ext
+[1.001s] Creating /home/ivan/ros2_ws_2402/install/twist2tf2_pkg_g01/lib/python3.10/site-packages/twist2tf2-pkg-g01.egg-link (link to .)
+[1.001s] 
+[1.001s] Installed /home/ivan/ros2_ws_2402/build/twist2tf2_pkg_g01
+[1.001s] running symlink_data
+[1.001s] creating /home/ivan/ros2_ws_2402/install/twist2tf2_pkg_g01/share/ament_index
+[1.001s] creating /home/ivan/ros2_ws_2402/install/twist2tf2_pkg_g01/share/ament_index/resource_index
+[1.001s] creating /home/ivan/ros2_ws_2402/install/twist2tf2_pkg_g01/share/ament_index/resource_index/packages
+[1.001s] symbolically linking /home/ivan/ros2_ws_2402/build/twist2tf2_pkg_g01/resource/twist2tf2_pkg_g01 -> /home/ivan/ros2_ws_2402/install/twist2tf2_pkg_g01/share/ament_index/resource_index/packages
+[1.001s] symbolically linking /home/ivan/ros2_ws_2402/build/twist2tf2_pkg_g01/package.xml -> /home/ivan/ros2_ws_2402/install/twist2tf2_pkg_g01/share/twist2tf2_pkg_g01
+[1.021s] Invoked command in '/home/ivan/ros2_ws_2402/build/twist2tf2_pkg_g01' returned '0': PYTHONPATH=/home/ivan/ros2_ws_2402/build/twist2tf2_pkg_g01/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ivan/ros2_ws_2402/install/twist2tf2_pkg_g01/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/ivan/ros2_ws_2402/build/twist2tf2_pkg_g01/build --no-deps symlink_data

@@ -1,0 +1,3 @@
+[console_scripts]
+WheelController = modelrobot3r_pkg_ga.WheelController:main
+

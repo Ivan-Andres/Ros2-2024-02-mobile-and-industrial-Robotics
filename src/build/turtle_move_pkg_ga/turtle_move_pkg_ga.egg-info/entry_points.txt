@@ -1,0 +1,3 @@
+[console_scripts]
+turtle_move_node_ga = turtle_move_pkg_ga.turtle_move_node_ga:main
+

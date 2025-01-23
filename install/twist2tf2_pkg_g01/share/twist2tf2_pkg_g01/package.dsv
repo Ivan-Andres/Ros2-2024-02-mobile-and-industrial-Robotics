@@ -1,0 +1,9 @@
+source;share/twist2tf2_pkg_g01/hook/pythonpath.ps1
+source;share/twist2tf2_pkg_g01/hook/pythonpath.dsv
+source;share/twist2tf2_pkg_g01/hook/pythonpath.sh
+source;share/twist2tf2_pkg_g01/hook/ament_prefix_path.ps1
+source;share/twist2tf2_pkg_g01/hook/ament_prefix_path.dsv
+source;share/twist2tf2_pkg_g01/hook/ament_prefix_path.sh
+source;../../build/twist2tf2_pkg_g01/share/twist2tf2_pkg_g01/hook/pythonpath_develop.ps1
+source;../../build/twist2tf2_pkg_g01/share/twist2tf2_pkg_g01/hook/pythonpath_develop.dsv
+source;../../build/twist2tf2_pkg_g01/share/twist2tf2_pkg_g01/hook/pythonpath_develop.sh
